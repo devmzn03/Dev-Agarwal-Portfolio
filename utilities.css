@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center ;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn-primary{
+    background: var(--primary);
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+#CV{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.btn-secondary{
+    border:solid var(--primary);
+    color: var(--primary);
+    background:  transparent;
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: black;
+    
+}
+.flex-1{
+    margin-left: 10rem;
+}
+
